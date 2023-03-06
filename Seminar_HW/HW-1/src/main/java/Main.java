@@ -54,7 +54,7 @@ public class Main {
                 ind++;
             }
         }
-        int m2[] = new int[cnt + 1];
+        int m2[] = new int[cnt];
         for (int j = 0; j < tmp2.length; j++) {
             if (tmp2[j] != 0) m2[j] = tmp2[j];
         }
