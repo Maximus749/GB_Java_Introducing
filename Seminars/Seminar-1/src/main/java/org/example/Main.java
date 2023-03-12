@@ -13,7 +13,7 @@ public class Main {
         }
         System.out.println();
         int[] tmp = new int[ints.length * 2 + 1];   // Создаем временный массив нужной длины
-        for (int i = 0; i < ints.length; i++) {     // Перепичываем данные из первого массива во второй
+        for (int i = 0; i < ints.length; i++) {     // Перепечатываем данные из первого массива во второй
             tmp[i] = ints[i];
         }
         ints = tmp;                                 //  приравниваем первый массив ко второму

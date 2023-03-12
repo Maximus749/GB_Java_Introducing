@@ -77,20 +77,20 @@ public class Main {
         for (int i = 1; i < numbers; i++) {
             builder.append("=");
         }
-//
-//        // STRINGBUILDER
+
+        // STRINGBUILDER
         long begin = System.currentTimeMillis();
         for (int i = 0; i < numbers; i++) {
-            builder.replace(i, i, " равно ");
-//            int indSB = builder.indexOf("=");
+            builder.replace(i, i, " равно ");               // Первое решение
+//            int indSB = builder.indexOf("=");                 // Второе решение
 //            builder.replace(indSB, indSB," равно ");
         }
         long end = System.currentTimeMillis();
         System.out.println("to StringBuilder: " + (end - begin));
-////          STRING
+//          STRING
         begin = System.currentTimeMillis();
-        String newStr = str.replace("=","равно");
-//        for (int i = 0; i < numbers; i++) {
+        String newStr = str.replace("=","равно");   // Первое решение
+//        for (int i = 0; i < numbers; i++) {                        // Второе решение
 //            str.replace("=","равно").charAt(i);
 //
 //        }
