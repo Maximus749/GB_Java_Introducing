@@ -20,7 +20,7 @@ public class Plate {
     }
 
     public void setFood(int food, int appetite) {
-            this.food = food - appetite;
+        this.food = food - appetite;
     }
 
 }
